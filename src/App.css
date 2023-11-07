@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: aqua;
+  height: 100px;
+
+}
+.cart-div {
+  float: right;
+  margin: 25px;
+  position: relative;
+}
+.cart-div img {
+  width: 50px;
+}
+.cart-div span {
+  position: absolute;
+  z-index: 5;
+  background-color: #000;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: #fff;
+  top: -6px;
+  right: auto;
+}
+.btn button {
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
